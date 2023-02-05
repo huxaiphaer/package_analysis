@@ -1,3 +1,6 @@
+"""Views.py files"""
+
+
 def start_view(request):
     """
     Start view.
