@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # packages
-    'django_dynamic_fixture',
+
 
     # apps
     'polls',
