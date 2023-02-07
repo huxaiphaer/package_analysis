@@ -1,3 +1,11 @@
 from django.contrib import admin
+from file_resubmit.admin import AdminResubmitMixin
 
-# Register your models here.
+from polls.models import Polls
+
+
+class PollsAdmin(AdminResubmitMixin, admin.ModelAdmin):
+    pass
+
+
+admin.site.register(Polls, PollsAdmin)
